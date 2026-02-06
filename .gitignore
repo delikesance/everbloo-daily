@@ -1,0 +1,19 @@
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+.env
+.envrc
+
+# node
+node_modules/
+
+# database
+*.sqlite
+*.sqlite-journal
+
+# pre-commit
+.pre-commit-config.yaml
